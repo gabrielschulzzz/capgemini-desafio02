@@ -25,6 +25,7 @@ export function AdModal({ isOpen, onRequestClose }: AdModalProps) {
 
             setTimeout(() => { setErro('') }, 2000);
         } else {
+            console.log(startDate, endDate)
             axios.post('http://localhost:3333/ads', {
                 adName: anuncio,
                 client: cliente,
