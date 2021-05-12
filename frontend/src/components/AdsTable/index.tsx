@@ -22,7 +22,7 @@ export function AdsTable() {
     useEffect(() => {
         const fetchData = async () => {
             const result = await axios(
-                'http://localhost:3939/ads',
+                'http://localhost:3333/ads',
             );
 
             setData(result.data);

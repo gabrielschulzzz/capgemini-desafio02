@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 5432,
     "username": "docker",
-    "password": "ignite",
+    "password": "capgemini",
     "database": "capgemini",
     "entities": [
         "./src/modules/**/infra/typeorm/entities/*.ts"

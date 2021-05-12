@@ -18,8 +18,7 @@
     "plugins": [
         "@typescript-eslint",
         "eslint-plugin-import-helpers",
-        "prettier",
-        "eslint-plugin-import-helpers"
+        "prettier"
     ],
     "rules": {
         "@typescript-eslint/no-unused-vars": [
